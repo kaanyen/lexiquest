@@ -1,0 +1,50 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Node / React Native
+node_modules/
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# Android
+android/app/build/
+android/.gradle/
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+local.properties
+
+# iOS
+ios/Pods/
+ios/build/
+*.xcworkspace/xcuserdata/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data: never commit datasets or child telemetry
+ml/data/*
+!ml/data/README.md
+*.csv
+*.db
+*.sqlite
